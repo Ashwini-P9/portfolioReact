@@ -19,12 +19,12 @@ const Project = () => {
   amd manage projects effectively.
     </div>
     </div>
-   <div className='flex flex-wrap p-8 justify-evenly items-center'>
+   <div className='flex flex-wrap p-8 justify-evenly items-center  hover:shadow-violet-700'>
     {projects.map((project)=>
     (
         <Tilt key={project.name} 
         className='text-center w-[300px] h-[500px] flex flex-col justify-evenly  shadow-2x1 m-10
-        items-center hover:shadow-2x1 hover:shadow-violet-400 shadow-pink-300 p-3 rounded-half
+        items-center hover:shadow-2x1 hover:shadow-violet-400 shadow-pink-300 p-3 rounded-x1
         border-2 border-violet-900 '>
             <div>
                 <div className='flex justify-center items-center mb-3'>

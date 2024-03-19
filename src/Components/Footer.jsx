@@ -8,7 +8,7 @@ const Footer = () => {
     <>
     <div className=' h-[70px] w-[screen] bg-black flex flex-row  justify-around'>
         <div className='flex flex-row p-2 flex-wrap justify-around'>
-            <a href="" target='blank' className='text-lg flex flex-row text-violet-300'>
+            <a href="https://www.linkedin.com/in/ashwini-ponthagan99/" target='blank' className='text-lg flex flex-row text-violet-300'>
                 <div className='h-[30px] w-[30px] rounded-full flex justify-center items-center bg-violet-400'>
                 <FaLinkedinIn  className='text-white '/></div>
                 <span className='text-white m1-1 mt-[0.1rem]'>Linkedin</span>
@@ -19,7 +19,7 @@ const Footer = () => {
             <a href="ashwinimp99@gmail.com" target='blank' className='text-lg flex flex-row text-violet-300'>
                 <div className='h-[30px] w-[30px] rounded-full flex justify-center items-center bg-violet-400'>
                  <IoMdMail   className='text-white '/></div>
-                <span className='text-white m1-1 mt-[0.1rem]'>Mail</span>
+                <span className='text-white m1-1 mt-[0.1rem]'>ashwinimp99@gmail.com</span>
                 
             </a>
         </div>

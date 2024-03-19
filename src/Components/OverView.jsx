@@ -2,7 +2,7 @@ import React from 'react'
 import Tilt from 'react-parallax-tilt'
 import { Style } from '../utils/Style'
  import { technologies,services } from '../Constants/Index'
- import {motion} from 'framer-motion'
+  
 
  import './style.css'
  
@@ -47,11 +47,11 @@ const OverView = () => {
 
                
 
-              <div className="flex flex-wrap justify-center items-center ">
+              <div className="flex flex-wrap justify-center items-center">
                 {technologies.map((technology)=>(
                   <div
                     key={technology.name}
-                    className='m-4 mt-5 h-[100px] w-[100px] rounded-3x1 shadow-2x1 border-[1px] border-violet-400
+                    className='m-4 mt-5 h-[100px] w-[100px] rounded-3x1 shadow-2x1 border-[1px] shadow-border-violet-400
                     hover:shadow-orange-300 ' >
                     <img  className='p-2'  src={technology.icon} alt={technology.name}/>
                      <div className='text-violet-600 justify-center flex'>

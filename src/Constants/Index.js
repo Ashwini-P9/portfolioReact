@@ -78,13 +78,13 @@ const services=[
             ],
             image:todo,
             source_code_link:"https://github.com/Ashwini-P9/ToDoApp",
-            source_deploy_link:"",
+            source_deploy_link:"https://todoapp-3655f4.netlify.app/",
 
         },
         {
             name:"Shopping App",
             description:
-            " WEB Application that enables users to manage their daily task and to manage the time efficiently",
+            " WEB Application for Online shopping made using React and make it responsive Bootstrap  is used",
 
             tags:[
                 {
@@ -102,8 +102,8 @@ const services=[
 
             ],
             image:shopping,
-            source_code_link:"",
-            source_deploy_link:"",
+            source_code_link:"https://github.com/Ashwini-P9/ShoppingAppReact",
+            source_deploy_link:"https://shopping-e3abda.netlify.app",
 
         },
         {    
@@ -126,9 +126,8 @@ const services=[
 
             ],
             image:employeeMan,
-            source_code_link:"",
-            source_deploy_link:"",
-
+            source_code_link:"https://github.com/Ashwini-P9/EmployeeCRUD",
+            source_deploy_link:"https://employeecrud-0f859.netlify.app/"
         }
 
 
